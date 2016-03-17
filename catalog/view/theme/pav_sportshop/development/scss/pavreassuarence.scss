@@ -1,0 +1,74 @@
+.box-module-pavreassurances {
+    .reassurances-center {
+        cursor: pointer;
+        &:hover{
+            .icon-name{
+              @include rotate(360deg);
+            }
+        }
+        .description{
+            overflow: hidden;
+            h4{
+                color: #ed5565;
+                margin-top: 0;
+                font-size: 17px;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+        }
+        &.orange{
+            .icon-name{
+                background: #fc6e51;
+            }
+            h4{
+                color: #fc6e51;
+            }
+        }
+         &.green{
+            .icon-name{
+                background: #8cc152;
+            }
+            h4{
+                color: #8cc152;
+            }
+        }
+         &.cyan{
+            .icon-name{
+                background: #1abc9c;
+            }
+            h4{
+                color: #1abc9c;
+            }
+        }
+        button{
+            background: none;
+            border: none;
+            border-radius: 0;
+            bottom: 3px;
+            color: #949595;
+            position: absolute;
+            @include rtl-right(15px);
+            display: none;
+        }
+        &:hover{
+            button{
+                display: block;
+            }
+        }
+    } 
+    .icon-name{
+        background: none repeat scroll 0 0 #ed5565;
+        @include rounded-corners(3px);
+        color: $white;
+        font-size: 25px;
+        @include size(47px, 47px);
+        line-height: 47px;
+        text-align: center;
+        margin:10px 0 0;
+        @include rtl-margin-right(15px);
+        @include rtl-float-left();
+        @include transition-duration(0.5s);
+        @include transition-property(transform);
+    }   
+}
+    

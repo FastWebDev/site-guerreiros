@@ -1,0 +1,116 @@
+
+//
+// Load core variables and mixins
+// --------------------------------------------------
+
+@import "variables";
+@import "mixins";
+
+
+
+//
+// Navs
+// --------------------------------------------------
+// Give the tabs something to sit on
+.nav-pills {
+  border: 1px solid $nav-highlight-border-color;
+  display: inline-block;
+  border-radius: $nav-highlight-border-radius;
+  background-color:	$nav-highlight-background;
+  margin-bottom: 10px;
+  @include gradient-vertical(#f5f5f5, #ffffff);
+  > li {
+    float: left;
+    outline: none;
+    // Make the list-items overlay the bottom border
+    margin-bottom: -1px;
+
+    // Actual tabs (as links)
+    > a {
+      margin-right: 0;
+      line-height: $line-height-base;
+      border: 1px solid transparent;
+      border-radius: $border-radius-base $border-radius-base 0 0;
+      font-weight: 700;
+      font-size: $nav-highlight-font-size;
+      color: $nav-highlight-font-color;
+      &:hover {
+        color: $nav-highlight-font-color-hover;
+      }
+    }
+
+    &.active:before{
+      content: "";
+      border-top: 10px solid $nav-highlight-active-bg-color;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+      position: absolute;
+      left: 50%;
+      margin-left: -10px;
+      bottom: -7px;
+    }
+
+    // Active state, and its :hover to override normal :hover
+    &.active > a {
+    	color: $nav-highlight-active-color;
+    	background-color: $nav-highlight-active-bg-color;
+    	border-radius: $nav-highlight-border-radius;
+    	outline: none;
+      &,
+      &:hover,
+      &:focus {
+        border-bottom-color: transparent;
+        cursor: default;
+        outline: none;
+      }
+    }
+  }
+  // pulling this in mainly for less shorthand
+  &.nav-justified {
+    @extend .nav-justified;
+    @extend .nav-tabs-justified;
+  }
+}
+
+// carousel
+.carousel-controls {
+    position: absolute;
+    top: 8px;
+    @include position_right();
+    width: 43px;
+    height: 26px;
+    overflow: hidden;
+}
+
+.carousel-control{
+  background-image: none;
+  overflow: hidden;
+  width: 22px; height: 26px;
+  &.left {
+    background-color: #fefefe;
+    @include gradient-horizontal($start-color: #fefefe, $end-color: #fefefe);
+    -webkit-border-radius: 3px 0 0 3px;
+    -moz-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+    border: solid 1px #dbdde1;
+  }
+  &.right {
+    background-color: #fefefe;
+    @include gradient-horizontal($start-color: #fefefe, $end-color: #fefefe);
+    -webkit-border-radius: 0 3px 3px 0;
+    -moz-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+    border: solid 1px #dbdde1;
+  }
+  .fa{
+    display: inline-block;
+    text-align: content;
+    vertical-align: middle;
+  }
+
+  &:hover,
+  &:focus {
+    color: #fc6e51;
+  }
+}
+

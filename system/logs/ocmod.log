@@ -1,0 +1,864 @@
+2015-09-14 17:51:52 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+2015-11-04 11:51:51 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+2015-12-21 11:15:14 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+2015-12-21 18:07:38 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: Instalador sem FTP
+FILE: admin/controller/extension/installer.php
+CODE: public function ftp() {
+LINE: 252
+CODE: public function sql() {
+LINE: 490
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+2015-12-21 18:09:08 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: Instalador sem FTP
+FILE: admin/controller/extension/installer.php
+CODE: public function ftp() {
+LINE: 252
+CODE: public function sql() {
+LINE: 490
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+MOD: Unlimited Extra Product Tabs
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 543
+CODE: if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
+LINE: 1355
+FILE: admin/language/english/catalog/product.php
+CODE: $_['error_keyword']          = 'SEO keyword already in use!';
+LINE: 121
+FILE: admin/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 19
+CODE: $product_id = $this->db->getLastId();
+LINE: 38
+CODE: public function editProduct($product_id, $data) {
+LINE: 169
+CODE: $data['product_recurrings'] = $this->getRecurrings($product_id);
+LINE: 352
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_recurring WHERE product_id = " . (int)$product_id);
+LINE: 383
+CODE: public function getProductLayouts($product_id) {
+LINE: 645
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
+LINE: 33
+CODE: <div class="tab-pane" id="tab-attribute">
+LINE: 485
+CODE: $('#input-description<?php echo $language['language_id']; ?>').summernote({height: 300});
+LINE: 995
+CODE: var attribute_row = <?php echo $attribute_row; ?>;
+LINE: 1167
+CODE: $('#language a:first').tab('show');
+LINE: 1503
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 166
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 12
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 59
+FILE: catalog/view/theme/pav_sportshop/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+----------------------------------------------------------------
+MOD: X-Form
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($url[0] == 'product_id')
+LINE: 30
+CODE: <li id="reports"><a class="parent"><i class="fa fa-bar-chart-o fa-fw"></i> <span><?php echo $text_reports; ?></span></a>
+LINE: 187
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 118
+FILE: catalog/controller/information/information.php
+CODE: $data['description'] = html_entity_decode($information_info['description'], ENT_QUOTES, 'UTF-8');
+LINE: 46
+CODE: $this->load->language('information/information');
+LINE: 33
+----------------------------------------------------------------
+2015-12-21 18:31:45 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: Instalador sem FTP
+FILE: admin/controller/extension/installer.php
+CODE: public function ftp() {
+LINE: 252
+CODE: public function sql() {
+LINE: 490
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+MOD: Unlimited Extra Product Tabs
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 543
+CODE: if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
+LINE: 1355
+FILE: admin/language/english/catalog/product.php
+CODE: $_['error_keyword']          = 'SEO keyword already in use!';
+LINE: 121
+FILE: admin/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 19
+CODE: $product_id = $this->db->getLastId();
+LINE: 38
+CODE: public function editProduct($product_id, $data) {
+LINE: 169
+CODE: $data['product_recurrings'] = $this->getRecurrings($product_id);
+LINE: 352
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_recurring WHERE product_id = " . (int)$product_id);
+LINE: 383
+CODE: public function getProductLayouts($product_id) {
+LINE: 645
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
+LINE: 33
+CODE: <div class="tab-pane" id="tab-attribute">
+LINE: 485
+CODE: $('#input-description<?php echo $language['language_id']; ?>').summernote({height: 300});
+LINE: 995
+CODE: var attribute_row = <?php echo $attribute_row; ?>;
+LINE: 1167
+CODE: $('#language a:first').tab('show');
+LINE: 1503
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 166
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 12
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 59
+FILE: catalog/view/theme/pav_sportshop/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+----------------------------------------------------------------
+MOD: X-Form
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($url[0] == 'product_id')
+LINE: 30
+CODE: <li id="reports"><a class="parent"><i class="fa fa-bar-chart-o fa-fw"></i> <span><?php echo $text_reports; ?></span></a>
+LINE: 187
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 118
+FILE: catalog/controller/information/information.php
+CODE: $data['description'] = html_entity_decode($information_info['description'], ENT_QUOTES, 'UTF-8');
+LINE: 46
+CODE: $this->load->language('information/information');
+LINE: 33
+----------------------------------------------------------------
+2015-12-21 18:46:37 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: Instalador sem FTP
+FILE: admin/controller/extension/installer.php
+CODE: public function ftp() {
+LINE: 252
+CODE: public function sql() {
+LINE: 490
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+MOD: Unlimited Extra Product Tabs
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 543
+CODE: if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
+LINE: 1355
+FILE: admin/language/english/catalog/product.php
+CODE: $_['error_keyword']          = 'SEO keyword already in use!';
+LINE: 121
+FILE: admin/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 19
+CODE: $product_id = $this->db->getLastId();
+LINE: 38
+CODE: public function editProduct($product_id, $data) {
+LINE: 169
+CODE: $data['product_recurrings'] = $this->getRecurrings($product_id);
+LINE: 352
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_recurring WHERE product_id = " . (int)$product_id);
+LINE: 383
+CODE: public function getProductLayouts($product_id) {
+LINE: 645
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
+LINE: 33
+CODE: <div class="tab-pane" id="tab-attribute">
+LINE: 485
+CODE: $('#input-description<?php echo $language['language_id']; ?>').summernote({height: 300});
+LINE: 995
+CODE: var attribute_row = <?php echo $attribute_row; ?>;
+LINE: 1167
+CODE: $('#language a:first').tab('show');
+LINE: 1503
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 166
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 12
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 59
+FILE: catalog/view/theme/pav_sportshop/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+----------------------------------------------------------------
+MOD: X-Form
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($url[0] == 'product_id')
+LINE: 30
+CODE: <li id="reports"><a class="parent"><i class="fa fa-bar-chart-o fa-fw"></i> <span><?php echo $text_reports; ?></span></a>
+LINE: 187
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 118
+FILE: catalog/controller/information/information.php
+CODE: $data['description'] = html_entity_decode($information_info['description'], ENT_QUOTES, 'UTF-8');
+LINE: 46
+CODE: $this->load->language('information/information');
+LINE: 33
+----------------------------------------------------------------
+2015-12-21 18:52:14 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: Instalador sem FTP
+FILE: admin/controller/extension/installer.php
+CODE: public function ftp() {
+LINE: 252
+CODE: public function sql() {
+LINE: 490
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+MOD: Unlimited Extra Product Tabs
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 543
+CODE: if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
+LINE: 1355
+FILE: admin/language/english/catalog/product.php
+CODE: $_['error_keyword']          = 'SEO keyword already in use!';
+LINE: 121
+FILE: admin/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 19
+CODE: $product_id = $this->db->getLastId();
+LINE: 38
+CODE: public function editProduct($product_id, $data) {
+LINE: 169
+CODE: $data['product_recurrings'] = $this->getRecurrings($product_id);
+LINE: 352
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_recurring WHERE product_id = " . (int)$product_id);
+LINE: 383
+CODE: public function getProductLayouts($product_id) {
+LINE: 645
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
+LINE: 33
+CODE: <div class="tab-pane" id="tab-attribute">
+LINE: 485
+CODE: $('#input-description<?php echo $language['language_id']; ?>').summernote({height: 300});
+LINE: 995
+CODE: var attribute_row = <?php echo $attribute_row; ?>;
+LINE: 1167
+CODE: $('#language a:first').tab('show');
+LINE: 1503
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 166
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 12
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 59
+FILE: catalog/view/theme/pav_sportshop/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+----------------------------------------------------------------
+MOD: X-Form
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($url[0] == 'product_id')
+LINE: 30
+CODE: <li id="reports"><a class="parent"><i class="fa fa-bar-chart-o fa-fw"></i> <span><?php echo $text_reports; ?></span></a>
+LINE: 187
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 118
+FILE: catalog/controller/information/information.php
+CODE: $data['description'] = html_entity_decode($information_info['description'], ENT_QUOTES, 'UTF-8');
+LINE: 46
+CODE: $this->load->language('information/information');
+LINE: 33
+----------------------------------------------------------------
+2015-12-21 19:20:42 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: Instalador sem FTP
+FILE: admin/controller/extension/installer.php
+CODE: public function ftp() {
+LINE: 252
+CODE: public function sql() {
+LINE: 490
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+MOD: Unlimited Extra Product Tabs
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 543
+CODE: if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
+LINE: 1355
+FILE: admin/language/english/catalog/product.php
+CODE: $_['error_keyword']          = 'SEO keyword already in use!';
+LINE: 121
+FILE: admin/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 19
+CODE: $product_id = $this->db->getLastId();
+LINE: 38
+CODE: public function editProduct($product_id, $data) {
+LINE: 169
+CODE: $data['product_recurrings'] = $this->getRecurrings($product_id);
+LINE: 352
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_recurring WHERE product_id = " . (int)$product_id);
+LINE: 383
+CODE: public function getProductLayouts($product_id) {
+LINE: 645
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
+LINE: 33
+CODE: <div class="tab-pane" id="tab-attribute">
+LINE: 485
+CODE: $('#input-description<?php echo $language['language_id']; ?>').summernote({height: 300});
+LINE: 995
+CODE: var attribute_row = <?php echo $attribute_row; ?>;
+LINE: 1167
+CODE: $('#language a:first').tab('show');
+LINE: 1503
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 166
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 12
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 59
+FILE: catalog/view/theme/pav_sportshop/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+----------------------------------------------------------------
+2015-12-21 19:23:03 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: Instalador sem FTP
+FILE: admin/controller/extension/installer.php
+CODE: public function ftp() {
+LINE: 252
+CODE: public function sql() {
+LINE: 490
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+MOD: Unlimited Extra Product Tabs
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 543
+CODE: if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
+LINE: 1355
+FILE: admin/language/english/catalog/product.php
+CODE: $_['error_keyword']          = 'SEO keyword already in use!';
+LINE: 121
+FILE: admin/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 19
+CODE: $product_id = $this->db->getLastId();
+LINE: 38
+CODE: public function editProduct($product_id, $data) {
+LINE: 169
+CODE: $data['product_recurrings'] = $this->getRecurrings($product_id);
+LINE: 352
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_recurring WHERE product_id = " . (int)$product_id);
+LINE: 383
+CODE: public function getProductLayouts($product_id) {
+LINE: 645
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
+LINE: 33
+CODE: <div class="tab-pane" id="tab-attribute">
+LINE: 485
+CODE: $('#input-description<?php echo $language['language_id']; ?>').summernote({height: 300});
+LINE: 995
+CODE: var attribute_row = <?php echo $attribute_row; ?>;
+LINE: 1167
+CODE: $('#language a:first').tab('show');
+LINE: 1503
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 166
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 12
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 59
+FILE: catalog/view/theme/pav_sportshop/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+----------------------------------------------------------------
+MOD: X-Form
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($url[0] == 'product_id')
+LINE: 30
+CODE: <li id="reports"><a class="parent"><i class="fa fa-bar-chart-o fa-fw"></i> <span><?php echo $text_reports; ?></span></a>
+LINE: 187
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 118
+FILE: catalog/controller/information/information.php
+CODE: $data['description'] = html_entity_decode($information_info['description'], ENT_QUOTES, 'UTF-8');
+LINE: 46
+CODE: $this->load->language('information/information');
+LINE: 33
+----------------------------------------------------------------
+2016-02-02 13:02:51 - MOD: Modification Default
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 58
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 20
+LINE: 37
+LINE: 54
+LINE: 65
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 21
+LINE: 27
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Pavo Framework 3.0</font>
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <select name="layout_module[<?php echo $module_row; ?>][position]" class="form-control">
+LINE: 106
+FILE: admin/controller/common/menu.php
+CODE: $this->load->language('common/menu');
+LINE: 3
+FILE: admin/view/template/common/menu.tpl
+CODE: <li id="sale">
+LINE: 87
+----------------------------------------------------------------
+MOD: Instalador sem FTP
+FILE: admin/controller/extension/installer.php
+CODE: public function ftp() {
+LINE: 252
+CODE: public function sql() {
+LINE: 490
+----------------------------------------------------------------
+MOD: PagSeguro Checkout Transparente
+FILE: catalog/controller/checkout/checkout.php
+CODE: $this->load->language('checkout/checkout');
+LINE: 33
+----------------------------------------------------------------
+MOD: Unlimited Extra Product Tabs
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 543
+CODE: if ((utf8_strlen($this->request->post['model']) < 1) || (utf8_strlen($this->request->post['model']) > 64)) {
+LINE: 1355
+FILE: admin/language/english/catalog/product.php
+CODE: $_['error_keyword']          = 'SEO keyword already in use!';
+LINE: 121
+FILE: admin/model/catalog/product.php
+CODE: class ModelCatalogProduct extends Model {
+LINE: 19
+CODE: $product_id = $this->db->getLastId();
+LINE: 38
+CODE: public function editProduct($product_id, $data) {
+LINE: 169
+CODE: $data['product_recurrings'] = $this->getRecurrings($product_id);
+LINE: 352
+CODE: $this->db->query("DELETE FROM " . DB_PREFIX . "product_recurring WHERE product_id = " . (int)$product_id);
+LINE: 383
+CODE: public function getProductLayouts($product_id) {
+LINE: 645
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
+LINE: 33
+CODE: <div class="tab-pane" id="tab-attribute">
+LINE: 485
+CODE: $('#input-description<?php echo $language['language_id']; ?>').summernote({height: 300});
+LINE: 995
+CODE: var attribute_row = <?php echo $attribute_row; ?>;
+LINE: 1167
+CODE: $('#language a:first').tab('show');
+LINE: 1503
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info) {
+LINE: 166
+FILE: catalog/model/catalog/product.php
+CODE: public function getProduct($product_id) {
+LINE: 12
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+LINE: 43
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+LINE: 59
+FILE: catalog/view/theme/pav_sportshop/template/product/product.tpl
+CODE: <li class="active"><a href="#tab-description" data-toggle="tab"><?php echo $tab_description; ?></a></li>
+NOT FOUND!
+CODE: <div class="tab-pane active" id="tab-description"><?php echo $description; ?></div>
+NOT FOUND!
+----------------------------------------------------------------
+MOD: X-Form
+FILE: catalog/controller/common/seo_url.php
+CODE: if ($url[0] == 'product_id')
+LINE: 30
+CODE: <li id="reports"><a class="parent"><i class="fa fa-bar-chart-o fa-fw"></i> <span><?php echo $text_reports; ?></span></a>
+LINE: 187
+CODE: $data['home'] = $this->url->link('common/dashboard', 'token=' . $this->session->data['token'], 'SSL');
+LINE: 118
+FILE: catalog/controller/information/information.php
+CODE: $data['description'] = html_entity_decode($information_info['description'], ENT_QUOTES, 'UTF-8');
+LINE: 46
+CODE: $this->load->language('information/information');
+LINE: 33
+----------------------------------------------------------------

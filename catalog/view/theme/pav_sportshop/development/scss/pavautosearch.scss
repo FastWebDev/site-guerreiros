@@ -1,0 +1,125 @@
+#header-main{
+  #search-auto{
+    border: 1px solid #dbdde1;
+    @include rtl-margin-right(-18px);
+    padding: 1px;
+    @include rounded-corners(3px);
+  }
+}
+
+#pav-masshead{
+  #search-auto{
+    background-color: $theme-color-primary;
+    padding: 6px;
+    @include rtl-margin-right(-18px);
+  }
+  .box-heading {
+    cursor: pointer;
+  }
+}
+#search-auto {
+  .button-search {
+    color: $theme-color-tertiary;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    position: absolute;
+    top: 8px;
+    @include rtl-right(3px);
+    z-index: 3;
+  }
+  .search-input-wrapper{
+      position:relative;
+      width: 75%;
+  }
+  .category_filter {
+      position: relative;
+      width: 25%;
+      select {
+        cursor: pointer;
+        width: 100%;
+        height: 34px;
+        font-size: 13px;
+        color: #9c9c9c;
+        padding: 6px;
+        background-color: #f9f9f9;
+        appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        -webkit-appearance: none;
+        border: none;
+      }
+      span {
+        background-color: #F9F9F9;
+        pointer-events: none;
+        width: 30px;
+        height: 34px;
+        position: absolute;
+        @include rtl-right(0px);
+        top: 0;
+        line-height: 35px;
+        padding: 0 10px;
+      }
+  }
+
+  .form-control{
+    box-shadow: none;
+    border: none;
+  }
+}
+.autosearch {
+  width: 100%;
+  @include rtl-text-align-left();
+  @include box-shadow(none);
+  @include rounded-corners(0);
+  > li {
+    border-bottom: 1px solid #ddd;
+    &:last-child{
+      border-bottom: none;
+    }
+    > a{
+      @include rtl-float-left();
+    }
+  }
+  .media-body {
+    @include rtl-float-left();
+    padding: 20px 0;
+    a{
+      font-weight: bold;
+    }
+  }
+}
+ul.ui-autocomplete {
+    z-index: 9999!important;
+   .active{
+      border: solid 1px #CCCCCC;
+   } 
+   li {
+        display: block;
+        clear: both;
+        border-bottom: 1px solid #e9e9e9;
+        overflow: hidden;
+        background-color: #fff !important;
+        padding: 10px;
+        img {
+            cursor: pointer;
+            width:60px;
+            height: 60px;
+        }
+        .name {
+            cursor: pointer;
+            &:hover {
+              color: #7bbd42;
+            }
+            font-size: 12px;
+            font-weight:bold
+        }
+        a {
+            @include rtl-float-right();
+            margin: 5px !important;
+            border: 1px solid transparent;
+        }
+    }
+}

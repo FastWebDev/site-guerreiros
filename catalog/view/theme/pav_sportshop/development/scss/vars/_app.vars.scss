@@ -1,0 +1,122 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+$app-brand-prefix        : pav !default;
+
+/**
+ *   Blocks Layout Selectors 
+ */
+$block-prefix 			 : box !default;
+$block-selector          : box !default;
+$block-heading-selector  : box-heading !default;
+$block-content-selector  : box-content !default;
+
+/**
+ * Product Item Selectors
+ */
+$products-container-selector : products_block !default;
+$products-row-selector 		 : products-row !default;
+$products-col-selector 		 : product-col !default;
+
+
+//------- Path Variables
+$image-path:                   "images/" !default;
+$font-custom-path:             "../font/" !default;
+$image-theme-base-path:        "../img/" !default;
+$image-theme-icon-path:        "../img/icon/" !default;
+$image-base-path:              "../../../img/" !default;
+$image-skin-path:              "../../img/icon/" !default;
+$image-module-path:            "../../../img/icon/" !default;
+$module-path:                  "../../../modules/" !default;
+
+$image-theme-path:             "../image/" !default;
+$image-theme-path-base:        "../image/" !default;
+$theme-font-path	   :       "../fonts/" !default;
+
+
+/***********************************************************************/
+// some basic colors
+$sky:                  			    #7bbd42 !default;  // Skin sky
+$blue:                              #6087D2 !default;  // Skin blue
+$yellow:                  			#ffc801 !default;  // Skin yellow
+$coral:								#EE6C92 !default;  // Slin Coral
+$rico:								#51BAA9 !default;  // Skin Rico
+$jungle-green:      				#37bc9b !default; //skin jungle green
+$green:                    			#8cc152 !default;  // Skin Green
+$red:                   			#cb2027 !default;  // Skin Red
+$pink:                  			#c3325f !default;
+$white:			 				    #FFFFFF !default;
+$black:							    #000000 !default;
+$cyandark:   						#4e4d49 !default;
+$orange:                			#df995e !default;
+$aqua: 								#75aab8 !default;
+$turquoise:                         #4ACFD4 !default; // label new
+$nav-border-color-hover:            #e2e2e2 !default;
+$golden-poppy:                      #F2BE01 !default;
+$valencia:      					#D44A4A !default;
+$tundora:                           #9c9c9c !default;  // Topbar + Vertical Menu Content
+$wild-sand:                         #ffffff !default;  // Background Body - default
+$silver:                            #f5f5f5 !default;  
+
+//------- Themes colors
+$red-light:            				#ff9999 !default;
+$yellow-light:           			#ffdc73 !default;
+$nocolor:							transparent !default;
+
+
+ 
+// some basic font family
+// ========================================================================
+$font-roboto: "Roboto Condensed", sans-serif;
+$font-arial: "Arial";
+
+// Variables paths 
+// ========================================================================
+
+
+$font-family            : $font-family-ptsans !default;
+$font-family-secondary  : $font-roboto !default;
+$font-family-tertiary   : "Source Sans Pro" !default;
+$font-family-senary     : "tahoma" !default;
+$font-family-septenary  : "tahoma" !default; 
+
+
+$font-icon-family 	    : "FontAwesome" !default;
+
+
+
+
+//////////////////// Variables defined for Themes + Skins ////////////////
+
+$body-bg                 : #ffffff !default;
+$theme-color             : #fc6e51 !default; 
+
+$theme-color-default     : #555555 !default;
+$theme-color-primary     : #3f3f3f !default;
+$theme-color-secondary   : #292929 !default;   
+$theme-color-tertiary    : #9c9c9c !default;
+
+$font-body-family	     : "tahoma" !default;
+$font-headding-family    : "tahoma" !default;
+$font-menu-family        : "tahoma" !default; 
+$font-highlighted-family : "tahoma" !default;
+
+$theme-bg-default		 : $gray-lighter !default; 
+$theme-bg-secondary 	 : $red !default; // using variable  for Theme  Skin
+$theme-bg-threedary  	 : $brand-warning !default; // using skin product list
+
+$border-color  : #dbdbdb !default;
+
+$table-bg-color	:  #ebebeb !default;
+
+// Brand
+// ========================================================================
+$brand-border:                     1px solid $border-color !default;
+$brand-radius:                     0px !default;
+
+
+//
+// Variables
+// --------------------------------------------------
+$rtl-left : left;
+$rtl-right : right;

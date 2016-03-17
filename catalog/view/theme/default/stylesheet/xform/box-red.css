@@ -1,0 +1,196 @@
+.form-wrapper .form-ul {
+    margin: 0;
+    padding: 0;
+    font: 13px "Lucida Sans Unicode","Lucida Grande",sans-serif;
+    max-width: 100%;
+    background: #FAFAFA;
+    padding: 30px;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    border: 6px solid #EA675C;
+}
+
+.form-wrapper p.form-desc {
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+
+.form-wrapper .form-ul  li {
+    list-style: none outside none;
+    padding: 5px;
+	 margin-bottom: 10px;
+}
+
+.form-wrapper .form-ul  li .error-block {
+      color: #E89999;
+     display: block;
+     margin-bottom: 0;
+     margin-top: 4px;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.form-wrapper .form-ul  li .help-block {
+  color: #737373;
+  display: block;
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.form-wrapper .form-ul li.li-captcha span {
+    margin-left: 3px;
+}
+.form-wrapper .form-ul li.li-captcha span img {
+    margin-top: 1px;
+    vertical-align: middle;
+}
+.form-wrapper .form-ul  li label {
+    margin: 0 0 3px 0;
+    padding: 0;
+    display: block;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    text-transform: uppercase;
+}
+.form-wrapper .form-ul  li label label{
+  font-weight: normal;
+}
+.form-wrapper .form-ul li input[type="file"] {
+    border: 1px solid #E0BDB0;
+    padding: 6px;
+    background-image: none;
+    color: #555;
+    height: 34px;
+    line-height: 1.428571429;
+    outline:0;
+}
+.form-wrapper .form-ul li input[type="text"], .form-wrapper .form-ul li input[type="password"] {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #E0BDB0;
+    border-radius: 0px;
+    padding: 7px;
+    background-image: none;
+    color: #555;
+    line-height: 1.428571429;
+    outline:0;
+    -webkit-transition: all .30s ease-in-out;
+    transition: all .30s ease-in-out;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width: 30%;
+}
+.form-wrapper .form-ul  li input.medium[type="text"]{
+  width:50%; 
+}
+.form-wrapper .form-ul  li input.large[type="text"]{
+  width:80%; 
+}
+
+.form-wrapper .form-ul li .address-wrapper .address-line{
+    margin-bottom: 8px;
+}
+.form-wrapper .form-ul li .address-wrapper input.street {
+    width: 63.3%;
+}
+.form-wrapper .form-ul li .address-wrapper input.city {
+    width: 31%;
+}
+.form-wrapper .form-ul li .address-wrapper input.state {
+    margin-left: 10px;
+    width: 31%;
+}
+.form-wrapper .form-ul li .address-wrapper input.zip {
+    width: 31%;
+}
+.form-wrapper .form-ul li .address-wrapper select.country {
+    margin-left: 10px;
+    width: 31%;
+}
+
+.form-wrapper .form-ul  li label abbr {
+    color: #f00;
+    font-size: 10px;
+    margin-left: 2px;
+}
+.form-wrapper .form-ul li .radio-wrapper label, .form-wrapper .form-ul li .checkbox-wrapper label, .form-wrapper .form-ul li .price-wrapper label {
+    font-weight: normal;
+}
+
+.form-wrapper .form-ul li .radio-wrapper label input, .form-wrapper .form-ul li .checkbox-wrapper label input, .form-wrapper .form-ul li .price-wrapper label input{
+   margin-left:3px;
+}
+
+.form-wrapper .form-ul li .date-wrapper input.day, .form-wrapper .form-ul li .date-wrapper input.month, .form-wrapper .form-ul li .date-wrapper input.year {
+    width: 75px;
+}
+
+.form-wrapper .form-ul li .time-wrapper input.hour, .form-wrapper .form-ul li .time-wrapper input.minute {
+    width: 75px;
+}
+
+.form-wrapper .form-ul li .time-wrapper select.ampm { min-width:60px; width:60px;}
+
+
+.form-wrapper .form-ul li select {
+     background: none repeat scroll 0 0 #fff;
+    border: 1px solid #E0BDB0;
+	min-width:150px;
+	background-image: none;
+    color: #555;
+    padding: 7px;
+    outline:0;
+    -webkit-transition: all .30s ease-in-out;
+    transition: all .30s ease-in-out;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.form-wrapper .form-ul li textarea {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #E0BDB0;
+    border-radius: 0px;
+    padding: 7px;
+    background-image: none;
+    height: 120px;
+    width: 50%;
+     outline:0;
+    -webkit-transition: all .30s ease-in-out;
+    transition: all .30s ease-in-out;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+.form-wrapper .form-ul li textarea.medium{
+   width: 70%;	
+}
+.form-wrapper .form-ul li textarea.large{
+   width: 85%;	
+}
+.form-wrapper .form-ul li.li-submit {
+    margin-top: 30px;
+    text-align: center;
+}
+.form-wrapper .form-ul li.li-submit input[type="submit"] {
+      -moz-box-shadow: inset 0 1px 0 0 #E85762;
+  -webkit-box-shadow: inset 0 1px 0 0 #E85762;
+  box-shadow: inset 0 1px 0 0 #3985B1;
+  background-color: #C23A1A;
+  border: 1px solid #B30916;
+  display: inline-block;
+  cursor: pointer;
+  color: #FFF;
+  padding: 8px 18px;
+  text-decoration: none;
+  font: 12px Arial,Helvetica,sans-serif;
+}
+.form-wrapper .form-ul li.li-submit input[type="submit"]:hover {
+  background-color: #BE0E0E;
+}
+
+.form-wrapper .form-ul li input[type="text"]:focus, .form-wrapper .form-ul li input[type="password"]:focus, .form-wrapper .form-ul li textarea:focus, .form-wrapper .form-ul li select:focus {
+  -moz-box-shadow: 0 0 8px #E9A288;
+  -webkit-box-shadow: 0 0 8px #E9A288;
+  box-shadow: 0 0 8px #E9A288;
+  border: 1px solid #ED9E81;
+}

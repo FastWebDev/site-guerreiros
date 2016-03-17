@@ -1,0 +1,181 @@
+.navbar-header {
+  float: right;
+}
+.navbar-nav > li {
+  float: right;
+}
+.dropdown-menu {
+  left: inherit;
+  right: 0;
+  float: right;
+}
+#pav-mainnav .megamenu .menu-icon {
+  background-position: right center !important;
+  padding-right: 30px;
+  padding-left: 0;
+}
+.button-close-menu {
+  right: auto;
+  left: 15px;
+}
+.product-list .product-block .product-action .cart {
+  border-right: 1px solid #ededed;
+}
+.product-block .product-action .cart {
+  float: right;
+}
+.product-block .product-action .wishlist-compare a {
+  border-right: 1px solid #ededed;
+  border-left: 0;
+}
+.box-services > .pull-left,
+#cart .pull-left,
+.media > .pull-left {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.box .box-heading span:before {
+  left: 100%;
+  right: inherit;
+}
+.box .box-heading span:after {
+  right: 100%;
+  left: inherit;
+}
+#footer .box .box-heading {
+  text-align: right;
+}
+.sidebar .box.dark .box-heading:before {
+  left: inherit;
+}
+.sidebar .box .box-heading {
+  text-align: right;
+}
+.sidebar .box .box-heading span:before {
+  border-left: 24px solid transparent;
+  border-right: 0;
+}
+#content h1:after {
+  left: inherit;
+  right: 0;
+}
+.htabs a {
+  float: right;
+}
+#search .button-search {
+  right: inherit;
+  left: 0;
+}
+#search input {
+  padding: 5px 10px 5px 30px;
+}
+.blog-meta ul {
+  text-align: left;
+}
+#header #cart .content {
+  right: inherit;
+  left: 0;
+}
+.pavblock .image {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.iconbox {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.iconbox i {
+  padding-right: 3px;
+  padding-left: 0;
+}
+.box-media .media p {
+  margin-right: 0;
+}
+#pav-mainnav .dropdown-menu {
+  text-align: right;
+}
+.widget-product-list .image {
+  float: right !important;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.widget-inner ul li {
+  margin-left: 10px;
+  margin-right: 0;
+}
+ul.list > li > a {
+  background-position: right 3px;
+  padding-right: 15px;
+  padding-left: 0;
+}
+ul.list > li > a:hover,
+ul.list > li > a.active {
+  background-position: right -45px;
+}
+ul.list > li ul > li {
+  padding: 10px 25px 0 0;
+}
+.tree-menu > ul > li .head a {
+  left: 10px;
+  right: auto;
+}
+.tree-menu > ul > li ul > li > a {
+  padding-right: 35px;
+  padding-left: 0;
+}
+.sidebar .box .product-block {
+  text-align: right !important;
+}
+.sidebar .product-block .image {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+.product-filter .display {
+  float: right;
+  margin-left: 10px;
+  margin-right: 0;
+}
+.product-filter .display span {
+  float: right !important;
+}
+.product-filter .sort,
+.product-filter .limit,
+.product-compare {
+  float: left !important;
+  margin-left: 10px;
+  margin-right: 0 !important;
+}
+.product-info .quantity-wrapper span {
+  border-right: none;
+}
+.nav-tabs > li {
+  float: right;
+}
+.tab-nav .nav-tabs > li {
+  padding: 0 20px 0 0;
+}
+ul.list li:before,
+.btn-arrow-right:before {
+  content: "\f177";
+  right: 0;
+  left: auto;
+}
+.widget-inner ul > li:before,
+.dropdown-mega ul > li:before {
+  content: "\f177";
+  left: 0;
+  right: auto;
+}
+#footer .column ul li:hover {
+  margin-right: 5px;
+}
+#menu-offcanvas .dropdown .dropdown-menu .dropdown-menu-inner li {
+  padding-right: 3px;
+}
+.newsletter .btn-arrow-right:before {
+  right: auto;
+  left: 76px;
+}

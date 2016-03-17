@@ -1,0 +1,84 @@
+.producttabs .carousel-control.right {
+  background-repeat: repeat-x;
+   border-radius: 0px 3px 3px 0px;
+    border: 1px solid #3B0043 !important;
+    width: 40px;
+    height: 35px;
+    padding-top: 3px;
+}
+.producttabs .carousel-control.left {
+    background-repeat: repeat-x;
+    border-radius: 3px 0px 0px 3px;
+    border: 1px solid #3B0043;
+    width: 40px;
+    height: 35px;
+    padding-top: 3px;
+}
+.producttabs .carousel-controls {
+    position: absolute;
+    top: 175px;
+    right: 10px;
+    left: auto;
+    width: 43px;
+    height: 40px;
+    overflow: hidden;
+    z-index: 2;
+    padding: 0px 36pc;
+}
+
+
+.product-info .carousel-control {
+    margin: -15px 0px;
+    top: 50%;
+    border-radius: 3px;
+    border: 1px solid #878787;
+    width: 40px;
+    height: 35px;
+    padding-top: 5px;
+background: rgba(83, 83, 83, 0.79) none repeat scroll 0% 0%;
+}
+.ImageWrapper:hover img {
+    opacity: 1;
+    z-index: 99;
+}
+.ImageWrapper .WhiteRounded{
+display: none;
+}
+.col-md-9 .carousel-controls {
+    padding-left: 275px !important;
+}
+.logo-store a img {
+    width: 200px;
+    height: 130px;
+}
+
+#topbar a {
+    color: #FFF !important;
+    font-weight: 400 !important;
+}
+#topbar {
+    font-weight: 400 !important;
+}
+.box-customer.hidden-tablet.pull-left {
+    width: 690px;
+    margin-left: -40px;
+}
+.product-block .compare {
+    float: right;
+    margin-right: 5px;
+    display: none;
+}
+.product-block .image:hover .product-zoom {
+    margin: -10px -40px 0px 0px;
+    display: none;
+}
+.product-block .image:hover .pav-colorbox {
+    margin: -10px 0px 0px -25px;
+    display: none;
+}
+#header-main #search-auto {
+    border: 2px solid #FFF;
+    margin-right: -18px;
+    border-radius: 3px;
+    width: 700px;
+}

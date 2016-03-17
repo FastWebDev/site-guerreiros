@@ -1,0 +1,120 @@
+ 
+table.form {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    & > * {
+        & > * {
+            & > td {
+                color: #000000;
+            }
+        }
+    }
+    td {
+        padding: 4px;
+    }
+    tr {
+        td:first-child {
+            width: 170px;
+        }
+    }
+}
+table.radio {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    display: table;
+    td {
+        padding: 5px;
+        label {
+            display: block;
+        }
+        input[type="radio"]{
+            margin: 0;
+        }
+    }
+    tr {
+        td:first-child {
+            width: 1px;
+            input {
+                margin-top: 1px;
+            }
+        }
+    }
+    tr.highlight:hover {
+        td {
+            background: lighten($border-color, 5%);
+            cursor: pointer;
+        }
+    }
+}
+
+//
+// Color box
+// --------------------------------------------------
+#colorbox{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+} 
+.no-padding { padding: 0; }
+.required {
+  font-size: $font-size-base - 1;
+  .control-label:before {
+    color: #f00;
+    content: "* ";
+    font-weight: bold;
+  }
+}
+
+.success, .warning, .attention, .information {
+  padding: 10px 10px 10px 33px;  
+  margin: $line-height-computed 0;
+  color: #555555;
+  @include rounded-corners( 5px );
+}
+.success .close, .warning .close, .attention .close, .information .close {
+  float: right;
+  padding-top: 4px;
+  padding-right: 4px;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.attention {
+  background: #FFF5CC url('#{$image-theme-path}attention.png') 10px center no-repeat;
+  border: 1px solid #F2DD8C;
+  @include rounded-corners( 5px );
+}
+.warning {  
+  background: #FFD1D1 url('#{$image-theme-path}warning.png') 10px center no-repeat;
+  border: 1px solid #F8ACAC;
+  @include rounded-corners( 5px );
+}
+.success {
+  background: #EAF7D9 url('#{$image-theme-path}success.png') 10px center no-repeat;
+  border: 1px solid #BBDF8D;
+  @include rounded-corners( 5px );
+}
+.help {
+  color: #999;
+  font-size: 10px;
+  font-weight: normal;  
+  display: block;
+}
+/* .error {
+  display: block;
+  color: #FF0000;  
+  margin-top: $padding-small-vertical;
+} */
+
+.welcome {
+  color: #636E75;  
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: $font-size-base + 7;
+  font-weight: normal;
+  text-shadow: 0 0 1px rgba(0, 0, 0, .01);
+}

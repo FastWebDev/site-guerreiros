@@ -1,0 +1,157 @@
+.producttabs .carousel-control.right {
+  background-repeat: repeat-x;
+  border-radius: 0px 3px 3px 0px;
+  border: 1px solid #3B00a3 !important;
+  width: 40px;
+  height: 35px;
+  padding-top: 3px;
+  z-index: 2;
+}
+.producttabs .carousel-control.left {
+  background-repeat: repeat-x;
+  border-radius: 3px 0px 0px 3px;
+  border: 1px solid #3B00A3;
+  width: 40px;
+  height: 35px;
+  padding-top: 3px;
+  z-index: 2;
+}
+.producttabs .carousel-controls {
+    position: absolute;
+    top: 175px;
+    right: -55px;
+    left: auto;
+    width: 43px;
+    height: 40px;
+    overflow: hidden;
+    padding: 0px 40pc;
+    z-index: 0;
+}
+.product-info .carousel-control {
+  margin: -15px 0px;
+  top: 50%;
+  border-radius: 3px;
+  border: 1px solid #878787;
+  width: 40px;
+  height: 35px;
+  padding-top: 5px;
+  background: rgba(83, 83, 83, 0.79) none repeat scroll 0% 0%;
+}
+.ImageWrapper:hover img {
+  opacity: 1;
+  z-index: 99;
+}
+.ImageWrapper .WhiteRounded {
+  display: none;
+}
+.col-md-9 .carousel-controls {
+  padding-left: 275px !important;
+}
+.logo-store a img {
+  width: 270px;
+  height: 210px;
+}
+#topbar a {
+color: red !important;
+  font-weight: 400 !important;
+}
+#topbar {
+  font-weight: 400 !important;
+}
+.box-customer.hidden-tablet.pull-left {
+  width: 690px;
+  margin-left: -40px;
+}
+.product-block .compare {
+  float: right;
+  margin-right: 5px;
+  display: none;
+}
+.product-block .image:hover .product-zoom {
+  margin: -10px -40px 0px 0px;
+  display: none;
+}
+.product-block .image:hover .pav-colorbox {
+  margin: -10px 0px 0px -25px;
+  display: none;
+}
+#header-main #search-auto {
+  border: 2px solid #3B00A3;
+  margin-right: -18px;
+  border-radius: 3px;
+  width: 700px;
+  margin-top: 80px;
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+  display: table-cell;
+  padding: 2px;
+}
+.nav &gt; li &gt; a:hover, .nav &gt; li &gt; a:focus {
+  text-decoration: none;
+  background-color: #FC6E51 !important;
+  color: #fff !important;
+}
+.nav-pills &gt; li.active &gt; a {
+  color: #FFF !important;
+  background-color: #FC6E51 !important;
+  border-radius: 3px;
+  outline: medium none;
+}
+.nav-pills &gt; li.active::before {
+  content: &quot;&quot;;
+  border-top: 10px solid #FC6E51 !important;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  bottom: -7px;
+}
+.nav-pills &gt; li &gt; a {
+  margin-right: 0px;
+  line-height: 1.42857;
+  border: 1px solid transparent;
+  border-radius: 2px 2px 0px 0px;
+  font-weight: 700;
+  font-size: 17px;
+  color: #FFF;
+  background: #3C00A3 !important;
+}
+.box-success .box-heading {
+  color: #FFF;
+  background-color: #FC6E51 !important;
+  border-color: #DBDBDB !important;
+}
+.category .tree-menu &gt; ul &gt; li {
+  border-bottom: 1px solid #9C9C9C !important;
+  padding: 15px 23px;
+}
+.radio-inline, .checkbox-inline {
+    display: inline-block;
+    padding-left: 80px !important;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.anc-luva {
+    background: #505050;
+    cursor:help;
+    width: 190px;
+    height: 40px;
+    padding: 9px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 13px;
+    position: absolute;
+    top: -365px;
+    left: 710px;
+    border-radius: 5px;
+    border: 1px solid #606060;
+}
+.anc-luva:hover {
+    background: #fc6e51;
+    cursor:help;
+    border: 1px solid #fff;
+}

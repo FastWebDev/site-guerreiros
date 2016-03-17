@@ -1,0 +1,10 @@
+
+/* customize for body */ 
+body { 
+background-color:#0f020f 
+} 
+
+/* customize for body,body #page */ 
+body,body #page { 
+font-family:inherit 
+} 

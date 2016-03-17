@@ -1,0 +1,162 @@
+/**
+ * Web Application Prefix Apply For Making Owner Styles
+ */
+/**
+ *   Blocks Layout Selectors
+ */
+/**
+ * Product Item Selectors
+ */
+/***********************************************************************/
+/*
+ * LAYOUT VARIABLES
+ */
+/**
+* Transition-timing-function property@mixin
+*/
+/*background RGBA
+============================================*/
+/*inline-block
+============================================*/
+/****/
+/* RIGHT TO LEFT */
+.pav-newsletter .valid {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  font-size: 12px;
+}
+.pav-newsletter .form-control {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.rtl .pav-newsletter .form-control {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-topright: inherit;
+  -webkit-border-top-right-radius: inherit;
+  border-top-right-radius: inherit;
+}
+.rtl .pav-newsletter .form-control {
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -moz-border-radius-bottomright: inherit;
+  -webkit-border-bottom-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+.pav-newsletter .form-control:hover, .pav-newsletter .form-control:active, .pav-newsletter .form-control:focus {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+.pav-newsletter .btn {
+  -moz-border-radius-topleft: 0;
+  -webkit-border-top-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+  -webkit-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.rtl .pav-newsletter .btn {
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-topleft: inherit;
+  -webkit-border-top-left-radius: inherit;
+  border-top-left-radius: inherit;
+}
+.rtl .pav-newsletter .btn {
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -moz-border-radius-bottomleft: inherit;
+  -webkit-border-bottom-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.pav-newsletter-social {
+  margin-top: 35px;
+}
+.pav-newsletter-social ul li {
+  width: 34px;
+  height: 34px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #464646;
+  margin-right: 10px;
+  float: left;
+  display: table;
+}
+.rtl .pav-newsletter-social ul li {
+  float: right;
+}
+.pav-newsletter-social ul li a {
+  display: table-cell;
+  vertical-align: middle;
+}
+.pav-newsletter-social ul li a:hover {
+  color: white !important;
+}
+.pav-newsletter-social ul li .fa {
+  margin-left: 3px;
+}
+.pav-newsletter-social .blue:hover {
+  background-color: #507cbe;
+}
+.pav-newsletter-social .sky:hover {
+  background-color: #58cbf2;
+}
+.pav-newsletter-social .red:hover {
+  background-color: #de2e2f;
+}
+.pav-newsletter-social .nored:hover {
+  background-color: #f16261;
+}
+
+.pavblog-latest .image {
+  margin: 0px 15px 15px 0px;
+  float: left;
+}
+.rtl .pavblog-latest .image {
+  margin: 0px 0px 15px 15px;
+}
+.rtl .pavblog-latest .image {
+  float: right;
+}
+.pavblog-latest .image img {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.pavblog-latest .blog-title a {
+  color: #fc6e51;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+.pavblog-latest .blog-title a:hover, .pavblog-latest .blog-title a:active, .pavblog-latest .blog-title a:focus {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width:480px) {
+  #topbar{
+    font-weight: bold !important;
+}
+}

@@ -1,0 +1,234 @@
+.form-wrapper .form-ul {
+    margin: 0;
+    padding: 0;
+}
+.form-wrapper .form-ul  li {
+    list-style: none outside none;
+    padding: 5px;
+	 margin-bottom: 10px;
+}
+
+.form-wrapper .form-ul  li .error-block {
+    color: #dc3434;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 4px;
+}
+.form-wrapper .form-ul  li .help-block {
+    color: #737373;
+    display: block;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.form-wrapper .form-ul li.li-captcha span {
+    margin-left: 3px;
+}
+.form-wrapper .form-ul li.li-captcha span img {
+    margin-top: -5px;
+}
+.form-wrapper .form-ul  li label {
+    color: #666;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 4px;
+    padding: 0;
+    text-align: left;
+}
+.form-wrapper .form-ul li input[type="file"] {
+    border: 1px solid #c2c2c2;
+    padding: 5px;
+}
+.form-wrapper .form-ul li input[type="text"], .form-wrapper .form-ul li input[type="password"] {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+    font-size: 14px;
+    height: 28px;
+    padding: 5px;
+}
+.form-wrapper .form-ul  li input.medium[type="text"]{
+  width:50%; 
+}
+.form-wrapper .form-ul  li input.large[type="text"]{
+  width:80%; 
+}
+
+.form-wrapper .form-ul li .address-wrapper .address-line {
+    margin-bottom: 8px;
+}
+.form-wrapper .form-ul li .address-wrapper input.street {
+    width: 64%;
+}
+.form-wrapper .form-ul li .address-wrapper input.city {
+    width: 31%;
+}
+.form-wrapper .form-ul li .address-wrapper input.state {
+    margin-left: 10px;
+    width: 31%;
+}
+.form-wrapper .form-ul li .address-wrapper input.zip {
+    width: 31%;
+}
+.form-wrapper .form-ul li .address-wrapper select.country {
+    margin-left: 10px;
+    width: 31%;
+}
+
+.form-wrapper .form-ul  li label abbr {
+    color: #f00;
+    font-size: 10px;
+    margin-left: 2px;
+}
+.form-wrapper .form-ul li .radio-wrapper label, .form-wrapper .form-ul li .checkbox-wrapper label, .form-wrapper .form-ul li .price-wrapper label {
+    font-weight: normal;
+}
+
+.form-wrapper .form-ul li .radio-wrapper label input, .form-wrapper .form-ul li .checkbox-wrapper label input, .form-wrapper .form-ul li .price-wrapper label input{
+   margin-left:3px;
+}
+
+.form-wrapper .form-ul li .date-wrapper input.day, .form-wrapper .form-ul li .date-wrapper input.month, .form-wrapper .form-ul li .date-wrapper input.year {
+    width: 75px;
+}
+
+.form-wrapper .form-ul li .time-wrapper input.hour, .form-wrapper .form-ul li .time-wrapper input.minute {
+    width: 75px;
+}
+
+.form-wrapper .form-ul li .time-wrapper select.ampm { min-width:60px; width:60px;}
+
+
+.form-wrapper .form-ul li select {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c2c2c2;
+    height: 28px;
+	min-width:150px;
+}
+
+.form-wrapper .form-ul li textarea {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+    height: 120px;
+    width: 50%;
+}
+
+.form-wrapper .form-ul li textarea.medium{
+   width: 70%;	
+}
+.form-wrapper .form-ul li textarea.large{
+   width: 85%;	
+}
+.form-wrapper .form-ul li.li-submit {
+    margin-top: 30px;
+    text-align: center;
+}
+.form-wrapper .form-ul li.li-submit input[type="submit"] {
+    background: none repeat scroll 0 0 #fcfcfc;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    color: #555;
+    font-size: 15px;
+    min-height: 44px;
+    padding: 8px 50px;
+}
+.form-wrapper .form-ul li.li-submit input[type="submit"]:hover {
+    background: none repeat scroll 0 0 #f1f1f1;
+    border: 1px solid #bbb;
+}
+
+.global-waiting{
+	background-color: #d96e7c;
+    border-radius: 5px;
+    color: #ffffff;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    height: 46px;
+    padding-top: 12px;
+    position: fixed;
+    text-align: center;
+    width: 250px;
+	}
+	
+
+.login-panel {
+     border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 15px;
+	 width: 90%;
+	 margin-bottom: 20px;
+}
+.login-panel input {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+    font-size: 14px;
+    height: 28px;
+    padding: 5px;
+	margin-right: 10px;
+}
+
+.login-panel input[type="submit"] {
+    font-weight: normal;
+    padding: 0 5px;
+    text-transform: uppercase;
+}
+
+.login-panel .error-notice {
+    background: none repeat scroll 0 0 #f8eeee;
+    border: 1px solid #f5a2a2;
+    color: #a05a5a;
+    display: block;
+    margin-bottom: 14px;
+    padding: 4px;
+}
+a.my-data{ float:right; margin-right:12px; position:relative;}
+a.logout{ float:right;position:relative;}
+h3 a.logout {
+    font-size:16px;
+}
+
+.payment-method{    border-bottom: 1px dashed #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 25px;}
+.price-wrapper input.multipler{ width:70px !important;}	
+
+ul.view-record{  display: block;
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 15px 0 15px 5px;}
+ ul.view-record li {
+    display: block;
+    float: left;
+    padding: 5px 15px;
+    width: 100%;
+}
+ul.view-record li label {
+    background: none repeat scroll 0 0 #ededed;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    padding: 6px;
+    width: 150px;
+}
+ul.view-record li span {
+    margin-left: 175px;
+	display:block;
+}
+ul.view-record li span label {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    display: inline-block;
+    float: none;
+}
+ul.view-record li label span {
+    margin: 0;
+}
+
+
+

@@ -1,0 +1,75 @@
+.product-block {
+	 
+	.img {
+        -webkit-transition: left .7s cubic-bezier(.75,0,.175,1);
+        transition: left .7s cubic-bezier(.75,0,.175,1);
+    }
+	.pav-colorbox , .product-zoom {
+		@include opacity(0);
+        visibility: hidden;   
+        position: absolute; 
+        top: 50%;
+        bottom: 50%;
+        @include transition(all 0.3s ease 0s);
+	}
+	.pav-colorbox {
+		margin: -10px 0 0 -60px;
+	}
+	.product-zoom {
+		margin: -10px -70px -0 0;
+	}
+	.action {
+        top: 80%;
+        @include opacity(0);
+        visibility: hidden;
+        @include transition (all 0.4s ease 0s);
+    }  
+    &:hover {
+        .action {
+            top: 96%;
+            @include opacity(1);
+            visibility: visible; 
+        }        
+    }
+	.image:hover {
+		.product-zoom, .pav-colorbox{
+            @include opacity(1);
+            visibility: visible;            
+        }
+        .product-zoom {
+        	margin: -10px -40px -0 0;
+        }
+        .pav-colorbox {
+        	margin: -10px 0 0 -25px;
+        }
+	}
+
+}
+
+.text-fill{
+    li{
+        a{
+            display: inline-block;
+            position: relative;
+            text-decoration: none;
+            line-height: 19px;
+            overflow: hidden;
+            &:before{
+                position: absolute;
+                top: 0;
+                @include rtl-left(0);
+                overflow: hidden;
+                content: attr(data-hover);
+                max-width: 0;
+                @include transition(all 0.3s);
+                color: $theme-color;
+            }    
+
+            &:hover{
+                &:before, &:focus{
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+}

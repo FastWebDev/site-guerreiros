@@ -1,0 +1,55 @@
+
+/* customize for body */ 
+body { 
+background-color:#ffffff 
+} 
+
+/* customize for body,body #page */ 
+body,body #page { 
+font-family:inherit 
+} 
+
+/* customize for #topbar */ 
+#topbar { 
+background-color:#3c00a3 
+} 
+
+/* customize for #topbar,#topbar .btn-dropdown span */ 
+#topbar,#topbar .btn-dropdown span { 
+color:#ffffff 
+} 
+
+/* customize for #topbar a,#topbar .btn.btn-theme-normal */ 
+#topbar a,#topbar .btn.btn-theme-normal { 
+color:#ffffff 
+} 
+
+/* customize for #topbar,#topbar .links li,#topbar .btn.btn-theme-normal */ 
+#topbar,#topbar .links li,#topbar .btn.btn-theme-normal { 
+border-color:#3c00a3 
+} 
+
+/* customize for #topbar .fa,#topbar .btn.btn-theme-normal .fa */ 
+#topbar .fa,#topbar .btn.btn-theme-normal .fa { 
+color:#3c00a3 
+} 
+
+/* customize for #pav-mainnav .inner */ 
+#pav-mainnav .inner { 
+background-color:#3c00a3 
+} 
+
+/* customize for .footer-top .inner */ 
+.footer-top .inner { 
+background-color:#ffffff 
+} 
+
+/* customize for .footer-center .inner */ 
+.footer-center .inner { 
+background-color:#ffffff 
+} 
+
+/* customize for .footer-bottom .inner */ 
+.footer-bottom .inner { 
+background-color:#ffffff 
+} 

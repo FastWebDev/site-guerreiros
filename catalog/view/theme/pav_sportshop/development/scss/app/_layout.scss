@@ -1,0 +1,268 @@
+/******************************************************
+ * $package Pav Opencart Theme Framework for Opencart 1.5.x
+ * $version 1.1
+ * $author http://www.pavothemes.com
+ * $copyright	Copyright (C) Augus 2013 PavoThemes.com <$emai:pavothemes$gmail.com>.All rights reserved.
+ * $license		GNU General Public License version 2
+ *******************************************************/
+body{
+    &.layout-boxed-lg{
+        background: url("#{$image-theme-path}pattern/pattern18.png");
+        #page{  
+            max-width: $container-lg + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+        }
+    }
+} 
+
+/*
+* HEADER 
+*/
+
+#topbar  {
+    padding: $topbar-padding;  
+    min-height: $topbar-height; 
+    font-weight: $topbar-font-weight; 
+    border-bottom: $topbar-border;
+    font-size: $topbar-font-size;
+    @include container-layout-variant( $topbar-color, $topbar-bg, $topbar-link-color, $topbar-link-hover-color ); 
+    a{
+        font-size: $topbar-font-size;
+    }
+    .links{ 
+        @include rtl-float-left();         
+    } 
+    .links-outline{
+        a{ color: $topbar-link-hover-color; }
+    }
+    .btn-theme-normal {
+        border: 1px solid $border-color;
+        margin-top: -3px;
+        padding: 3px 10px;
+        cursor: pointer;
+        @include rounded-corners(3px);
+    } 
+
+    .quick-setting{
+        border-top: 4px solid $theme-color-primary;
+        padding: 10px;
+        .language{
+            li:hover{
+                color: $theme-color;
+                cursor: pointer;
+            }
+        }
+
+        .currency{
+            ul li{
+                display: inline-block;
+            }
+            button{
+                cursor: pointer;
+                border: 1px solid;
+                @include rounded-corners(50%);
+                b{
+                    color: $theme-color;
+                }
+                &:hover{
+                    color: $theme-color;
+                }
+            }
+        }
+
+     &.dropdown-menu{
+        @include rtl-right(0);
+     }
+    }
+}
+
+
+#header-main{
+    background-color: $header-bg;
+    min-height: 60px;
+    color: $header-text-color;    
+    .header-wrap{
+        min-height: 94px;
+        margin: 0;
+    }
+    .inner{   
+        @include rtl-text-align-right();
+        // text-align: right;                  
+        margin-top: 32px;
+        margin-bottom:  32px;
+        & > *{
+            vertical-align: middle;
+        }
+    }   
+    .cart-top{
+        margin-top: 10px;
+    }
+}
+
+.logo-store{
+    position: relative;
+    a{
+        vertical-align: middle;
+        img{
+            @include size(205px, 55px);
+        }
+    }
+}
+#logo-theme{
+    a{
+        background: url('#{$image-theme-path}logo.png') no-repeat;
+        display: inline-block;
+        @include size(205px, 55px);
+        span{
+            display: none;
+        }
+    }
+} 
+
+
+#header{        
+    .show-mobile{ 
+        @include clearfix();     
+        text-align: right;       
+        > div{
+            margin: 0;
+            padding: 0;
+            position: relative;
+            float: none !important;
+            display: inline-block;
+            &:hover{
+                .inner-toggle{
+                    display: block;
+                }
+            }
+        }
+        .quickaccess-toggle{
+            @include size(30px, 30px);
+            line-height: $line-height-computed + 7;
+            text-align: center;            
+            cursor: pointer;  
+            border: 1px solid #dcdcdc;    
+            .fa{                
+                margin: 0;
+                font-size: $respon-topbar-icon-font-size;
+            }
+            &:hover, &:focus, &:active {
+                background-color: $white;
+            }                 
+        }
+        .inner-toggle{
+            color: #8c8c8c;
+            display: none;
+            position: absolute;            
+            right: 0;
+            left: auto;
+            min-width: 160px;
+            display: none;
+            z-index: 99999;
+            border: 1px solid #dcdcdc;
+            background: $white;
+            padding: 15px;
+            text-align: left;                        
+        }  
+    }
+ 
+}
+
+#pav-masshead {
+   .inner{
+        @include container-layout-variant($masshead-color, $masshead-bg, $masshead-color, lighten($masshead-color,5%) );      
+   }
+}
+
+/*
+* NAVIGATION
+*/
+#pav-mainnav {
+    .inner{
+        background-color: $theme-color-secondary;
+    }
+}
+/*
+* SLIDESHOW 
+*/
+#pavo-slideshow {
+
+}
+
+/*
+* SHOWCASE 
+*/
+#pav-showcase {
+
+}
+/*
+* PROMOTION TOP 
+*/
+#pav-promotion {    
+    
+}
+/*
+* MAIN CONTENT
+*/  
+#content {
+    margin-bottom: 25px;
+   /*  >h1{
+        display: none;
+    } */
+}
+
+
+
+.wrapper-danger{
+
+}
+.wrap-outline{
+
+}
+
+/*end*/
+/* FOOTER */
+#footer{
+    @include clearfix();
+    background: $footer-bg;    
+    min-height: $line-height-computed * 5;
+    color: $footer-color;
+    font-size: $footer-font-size;
+    margin-top: $footer-margin;   
+}
+
+.footer-top{
+    background: $footer-top-outside-bg;
+    .inner{
+        @include container-layout-variant($footer-top-color, $footer-top-bg, $footer-top-color, lighten($footer-top-color,5%) ); 
+        padding: $footer-top-content-padding; 
+    }
+}
+.footer-center{
+    background: $footer-center-outside-bg;
+   .inner{
+        @include container-layout-variant($footer-center-color, $footer-center-bg, $footer-center-color, lighten($footer-center-color,5%) );   
+        padding: $footer-center-content-padding;    
+   }
+}   
+.footer-bottom{
+    background: $footer-bottom-outside-bg;
+   .inner{
+        @include container-layout-variant($footer-bottom-color, $footer-bottom-bg, $footer-bottom-color, lighten($footer-bottom-color,5%) );   
+        padding: $footer-bottom-content-padding;    
+   }
+}      
+
+
+/* POWER BY */
+#powered {
+    background: $power-outside-bg;
+    .inner{
+        @include container-layout-variant($power-color, $power-bg, $power-link-color, $power-link-color-hover);
+        padding: $power-content-padding;
+        border-top: 1px solid $power-border-color;
+    }
+    margin-bottom: 35px;
+}

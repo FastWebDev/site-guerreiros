@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<header>
+		 <title>Header Block</title>
+		 <description></description>
+	 	 <module>
+	 	 	<title>Support</title>
+	 	 	<field>
+	 	 		<name>widget_support</name>
+	 	 		<label>Support</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<div class="box-customer hidden-tablet pull-left">
+					<div class="box-style service-1">
+					<h4><a href="index.php?route=information/information&amp;information_id=4">Free shipping</a></h4>
+
+					<p><a href="index.php?route=information/information&amp;information_id=4">On All Products</a></p>
+					</div>
+
+					<div class="box-style service-2">
+					<h4><a href="index.php?route=information/information&amp;information_id=4">Money back</a></h4>
+
+					<p><a href="index.php?route=information/information&amp;information_id=4">Guarantee</a></p>
+					</div>
+
+					<div class="box-style service-3">
+					<h4><a href="index.php?route=information/information&amp;information_id=4">Specisl weekly</a></h4>
+
+					<p><a href="index.php?route=information/information&amp;information_id=4">Offer</a></p>
+					</div>
+					</div>
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>	
+
+	</header>	
+		<footer>
+		 <title>Footer Block</title>
+		 <description></description>
+		  <module>
+	 	 	<title>Top Page Link</title>
+	 	 	<field>
+	 	 		<name>widget_toppage</name>
+	 	 		<label>Content</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default><![CDATA[
+	 	 			<div class="box">
+					<div class="box-heading"><span>Our Offers</span></div>
+					<div class="box-content">
+					<ul class="list bullet text-fill">
+						<li><a data-hover="Pricing Policy" href="index.php?route=account/account">Pricing Policy</a></li>
+						<li><a data-hover="Shipping Policy" href="index.php?route=account/order">Shipping Policy</a></li>
+						<li><a data-hover="Payment Methods" href="index.php?route=account/wishlist">Payment Methods</a></li>
+						<li><a data-hover="Site Information" href="index.php?route=account/newsletter">Site Information</a></li>
+					</ul>
+					</div>
+					</div>
+
+
+	 	 			]]></default>
+	 		</field>
+	 	 </module>	
+	 	 <module>
+	 	 	<title>Our Offers Link</title>
+	 	 	<field>
+	 	 		<name>widget_ouroffers</name>
+	 	 		<label>Content</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default><![CDATA[
+
+	 	 			<div class="box">
+					<div class="box-heading"><span>Assistance</span></div>
+
+					<div class="box-content">
+					<ul class="list bullet text-fill">
+						<li><a data-hover="Shipping &amp; returns" href="index.php?route=account/account">Shipping &amp; returns</a></li>
+						<li><a data-hover="Secure shopping" href="index.php?route=account/order">Secure shopping</a></li>
+						<li><a data-hover="My Wishlist" href="index.php?route=account/wishlist">My Wishlist</a></li>
+						<li><a data-hover="Check out" href="index.php?route=account/newsletter">Check out</a></li>
+					</ul>
+					</div>
+					</div>
+
+
+	 	 			]]></default>
+	 		</field>
+	 	 </module>	
+	 	 <module>
+	 	 	<title>Paypal</title>
+	 	 	<field>
+	 	 		<name>widget_paypal</name>
+	 	 		<label>Paypal</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default><![CDATA[<img alt="img" src="image/data/paypal.png"/>]]></default>
+	 		</field>
+	 	 </module>	
+	</footer>
+	
+</theme>
+

@@ -1,0 +1,22 @@
+.buttons{
+	@include clearfix();
+	padding: 20px 0; 
+	.left{
+   	   float:left;
+	}
+	.right{
+	    float:right;
+	}
+}
+
+.btn-outline-inverse{
+	@include button-variant-outline($white, $theme-color-primary, transparent, $white, $theme-color, transparent);
+	text-transform: uppercase;
+} 
+
+.btn-outline{
+	@include button-variant-outline($white, $theme-color-default , transparent , $white, $theme-color, transparent );
+	text-transform: uppercase;
+} 
+
+ 
